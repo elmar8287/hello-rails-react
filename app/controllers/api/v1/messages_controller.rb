@@ -1,7 +1,3 @@
-# frozen_string_literal: true
-
-# rubocop:disable Style/Documentation
-
 module Api
   module V1
     class MessagesController < ApplicationController
