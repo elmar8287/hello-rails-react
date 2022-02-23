@@ -1,53 +1,24 @@
-# The `Hello Rails React`
+# README
 
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-> Description: .... pending
+Things you may want to cover:
 
-### Build with:
+* Ruby version
 
-- React JS
-- Node JS
-- RoR
+* System dependencies
 
-## Preparation
+* Configuration
 
-- Install [Node.js](https://nodejs.org/en/).
-- To check, if Node.js is installed already, then just check Node.js and npm versions: `node -v` and `npm -v`
-- Instal `React Dev tools` in Google extentions. (we need it for future)
+* Database creation
 
-## Getting Started
+* Database initialization
 
-- git clone https://github.com/elmar8287/hello-rails-react.git
-- cd ./hello-rails-react
-- run `npm install` to install all dependencies
-- run `npm start` to start the app
+* How to run the test suite
 
-## Run tests
+* Services (job queues, cache servers, search engines, etc.)
 
-- ....
+* Deployment instructions
 
-## Authors
-
-👤 **Elmar Abdulkarimov**
-
-- GitHub: [Elmar Abdulkarimov](https://github.com/elmar8287)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+* ...
