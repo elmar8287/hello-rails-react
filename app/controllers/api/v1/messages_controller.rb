@@ -1,6 +1,14 @@
-class Api::V1::MessagesController < ApplicationController
-  def index
-    @message = Message.all.sample(1)
-    render json: { messages: @message }.to_json
+# frozen_string_literal: true
+
+# rubocop:disable Style/Documentation
+
+module Api
+  module V1
+    class MessagesController < ApplicationController
+      def index
+        @message = Message.all.sample(1)
+        render json: { messages: @message }.to_json
+      end
+    end
   end
 end
