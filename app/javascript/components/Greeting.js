@@ -1,5 +1,4 @@
 import React from "react"
-
 import { connect } from "react-redux";
 import { createStructuredSelector } from 'reselect';
 
@@ -25,17 +24,16 @@ export function getGreetingSuccess(json) {
 
 class Greeting extends React.Component {
   render () {
-    const { greeting } = this.props;
 
+    const { greeting } = this.props;
     const greetingList = greeting.map((greet, index) => {
       return <li key={index}>{ greet.greeting }</li>
     })
-
     return (
       <React.Fragment>
-        <p>Create a random message</p>
+        <p>Click the button to generate a random message</p>
         <br />
-        <button onClick={() => this.props.getGreeting()}>Greeting</button>
+        <button onClick={() => this.props.getGreeting()}>Get Greeting</button>
         <br />
         <ul>{ greetingList }</ul>
       </React.Fragment>
@@ -49,5 +47,4 @@ const structuredSelector = createStructuredSelector({
 
 const mapDispatchToProps = { getGreeting };
 
-export default connect(structuredSelector, mapDispatchToProps)(Greeting)
-
+export default connect(structuredSelector, mapDispatchToProps)(Greeting) 

@@ -1,6 +1,4 @@
-module Api
-  module V1
-    module MessagesHelper
-    end
+module V1
+  module MessagesHelper
   end
 end
